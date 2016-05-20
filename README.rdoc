@@ -1,4 +1,12 @@
 == README
+This app is the final project for the Coursera: Introduction to Ruby on Rails 
+
+** This app can be viewed at https://recipefinder32707.herokuapp.com
+** Creating a search method within the page was not a requirement. The default is to retrieve results for the keyword "chocolate". Appending search="x" to the url will search the food2fork api for x.
+** For example https://recipefinder32707.herokuapp.com?search=mocha
+
+** The app is hosted using a free dyno at heroku.com and thus may not always be available do to usage restrictions.
+** Also, access to the Food2Fork.com/about/api has a limit on requests per day for their free account.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
