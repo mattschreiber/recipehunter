@@ -5,6 +5,7 @@ This app is the final project for the Coursera: Introduction to Ruby on Rails (h
 ** Ruby version 2.3.0
 
 ** Rails version 4.2.3
+
 ** No database is used for this application. All data is retrieved via the food2fork.com
 	 api.
 
