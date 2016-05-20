@@ -1,35 +1,23 @@
 == README
-This app is the final project for the Coursera: Introduction to Ruby on Rails 
 
-** This app can be viewed at https://recipefinder32707.herokuapp.com
-** Creating a search method within the page was not a requirement. The default is to retrieve results for the keyword "chocolate". Appending search="x" to the url will search the food2fork api for x.
-** For example https://recipefinder32707.herokuapp.com?search=mocha
+This app is the final project for the Coursera: Introduction to Ruby on Rails (https://www.coursera.org/learn/ruby-on-rails-intro)
 
+** Ruby version 2.3.0
+** Rails version 4.2.3
+** No database is used for this application. All data is retrieved via the food2fork.com api.
+
+** The application requires 2 environment variables be set. The first is FOOD2FORK_KEY, which value needs to match the API key obtained when signing up for an account at food2fork.com/about/api
+** The second is FOOD2FORK_SERVER_AND_PORT, which should be set to www.food2fork.com:80. Both are used in the Recipe class located within app/models/recipe.rb
+
+** Clone the repository and run 'bundle install' to download the required Gems.  The 'pg' and 'rails_12factor' are Gems for PostgreSQL and are only needed for deploying to Heroku. 
+
+** The app is deployed at https://recipefinder32707.herokuapp.com
+** Creating a search method within the page was not a requirement for the project. The default is to retrieve results for the keyword "chocolate". Appending search="x" to the url will search the food2fork api for x. For example https://recipefinder32707.herokuapp.com?search=mocha
 ** The app is hosted using a free dyno at heroku.com and thus may not always be available do to usage restrictions.
 ** Also, access to the Food2Fork.com/about/api has a limit on requests per day for their free account.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
